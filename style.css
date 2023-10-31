@@ -86,24 +86,23 @@ nav a{
     top: 400px;
 }
 .about-music{
-   position: relative;
-   top: 400px;
+   padding-top: 500px;
    display: flex;
+   gap: 25px;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    text-align: center;
    font-size: 11px;
-   margin: 0 10px;
+   margin-bottom: 50px;
+
 }
 .video-sec{
     background-image: url('video.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
     min-height: 800px;
-    top: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,30 +112,27 @@ nav a{
     color: white;
 }
 .video-sec div{
-    margin-top: -300px;
-    
+ 
+    margin-top: -400px;
+    padding: 0 15px;
 }
 .gift-sec{
-    position: relative;
-    color: white;
-    top: 500px;
-    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
     gap: 20px;
+    padding: 50px 10px;
     margin: 0 50px;
 }
 .gift_card{
-    position: relative;
+  
     
 }
 .gift_card_t{
     font-size: 15px;
     display: flex;
     align-items: center;
- 
     flex-direction: column;
     justify-content: center;
 }
@@ -149,8 +145,8 @@ nav a{
   border-radius:10px;
 } 
 footer{
-    position: relative;
-    top: 500px;
+   
+    
 }
 .footer-upper{
     background-color: #361DD8;
@@ -217,6 +213,7 @@ footer{
         display: flex;
         flex-direction: column;
         scroll-margin: 120px;
+        padding: 30px 10px;
     }
     
     
@@ -241,6 +238,4 @@ footer{
    .footer-lowwer{
        padding: 5px;
    }
-  
-    
 }
